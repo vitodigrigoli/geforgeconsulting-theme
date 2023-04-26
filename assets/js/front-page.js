@@ -129,3 +129,4 @@ $.scrollify({
     updateHash: false,
     touchScroll: true,
 });
+

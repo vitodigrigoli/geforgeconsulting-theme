@@ -1,0 +1,13 @@
+
+/* Border Block */
+[class*='wp-block-genesis-custom-blocks-'] {border: 1px solid #ddd; padding: 30px; margin: auto}
+
+.wp-block {
+    max-width: 960px;
+	margin: 60px auto;
+}
+
+.cards::before{content: 'CARDS BLOCK'; font-size: 2rem; font-weight: bold;}
+
+.testimonials::before{content: 'TESTIMONIALS BLOCK'; font-size: 2rem; font-weight: bold;}
+.testimonials__media{display: none;}

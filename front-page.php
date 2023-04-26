@@ -13,6 +13,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 
+	<link rel="stylesheet" href="<?php echo get_theme_file_uri('./assets/css/main.css') ?>">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"></script>
@@ -27,6 +29,8 @@
 	<meta name="dc.language" content="ita" scheme="RFC1766">
 	<meta name="revisit-after" content="15 days">
 	<meta name="author" content="Geforge.it">
+
+
 
 	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="https://geforgeconsulting.it/">
@@ -747,5 +751,4 @@
 
 	</main>
 	<?php wp_footer() ?>
-</body>
-</html>
+	<?php get_footer() ?>
